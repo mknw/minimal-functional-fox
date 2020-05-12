@@ -125,7 +125,7 @@ html#main-window {
 
 /* Hacky way to make the url input bar centered */
 input#urlbar-input {
-	caret-color: #f9ff99 !important; /* changed */
+	caret-color: #f9ff99 !important; /* <!-- changed --> */
 	font-family: var(--urlbar-text-font) !important;
 	font-size: var(--urlbar-text-size) !important;
 	font-weight: var(--urlbar-text-weight) !important;
@@ -183,7 +183,7 @@ input#urlbar-input {
 	font-weight: var(--tab-font-weight) !important;
 }
 
-.tabbrowser-tab[multiselected="true"] {
+.tabbrowser-tab[multiselected="true"] { /* <!-- changed --> */
 	background-color: none !important;
 	background-image: linear-gradient(to left, #1f4037, #99f2c8) !important;
 	color: black !important;
